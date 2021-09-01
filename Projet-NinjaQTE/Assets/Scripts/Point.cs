@@ -10,7 +10,11 @@ public class Point : MonoBehaviour
     private void Update()
     {
         Debug.Log(NbPoint);
-        
+    }
+
+    public void removePoint()
+    {
+        NbPoint--;
     }
 
     public void addPoint()

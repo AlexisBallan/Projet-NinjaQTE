@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class ToucherCible : MonoBehaviour
 {
-    public GameObject Point;
 
     private void OnMouseEnter()
     {
-        Point.GetComponent<Point>()?.addPoint();
+        GameObject.Find("Spawner").GetComponent<Point>()?.addPoint();
         Destroy(gameObject);
     }
 }
