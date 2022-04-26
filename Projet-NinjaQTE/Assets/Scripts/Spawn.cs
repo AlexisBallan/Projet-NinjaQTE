@@ -26,7 +26,7 @@ public class Spawn : MonoBehaviour
     private void FaireSpawner()
     {
         tempsAvantSpawn = Time.time + tempsSpawnCible;
-        var position = new Vector3(Random.Range(-8, 8), Random.Range(-4, 4), -9f);
+        var position = new Vector3(Random.Range(-8, 8), Random.Range(-4, 4), -9);
         Instantiate(Cible, position, Quaternion.identity);
     }
 }

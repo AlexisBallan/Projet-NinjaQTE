@@ -281,9 +281,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd46e56e252ce14f8a02a7bdabc891b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newLetter: 
-  text: {fileID: 0}
-  tempsEntreLettre: 0
+  text: {fileID: 1589969282}
+  tempsEntreLettre: 3
 --- !u!1 &654067674
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,7 +638,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd46e56e252ce14f8a02a7bdabc891b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newLetter: 
   text: {fileID: 0}
   tempsEntreLettre: 0
 --- !u!1 &1825678183
